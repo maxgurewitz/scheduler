@@ -1,0 +1,23 @@
+{
+  "name": "scheduler",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxgurewitz/scheduler"
+  },
+  "author": "Max Gurewitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxgurewitz/lob_draw/issues"
+  },
+  "engines": {
+  },
+  "devDependencies": {
+  },
+  "homepage": "https://github.com/maxgurewitz/scheduler",
+  "dependencies": {
+  }
+}
