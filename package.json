@@ -1,8 +1,10 @@
 {
   "name": "scheduler",
   "version": "0.0.1",
-  "main": "index.js",
+  "description": "Assign jobs to students",
+  "main": "./lib/index.js",
   "scripts": {
+    "schedule": "./lib/scripts/schedule.js"
   },
   "repository": {
     "type": "git",
@@ -11,13 +13,20 @@
   "author": "Max Gurewitz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxgurewitz/lob_draw/issues"
+    "url": "https://github.com/maxgurewitz/scheduler/issues"
   },
   "engines": {
   },
   "devDependencies": {
+    "sinon": "*",
+    "mocha": "*",    
+    "chai": "*"
   },
   "homepage": "https://github.com/maxgurewitz/scheduler",
   "dependencies": {
+    "highland": "*",
+    "lodash": "*",
+    "faker": "*",
+    "byline" : "*"
   }
 }
